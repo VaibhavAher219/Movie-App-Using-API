@@ -1,0 +1,40 @@
+*{
+    background-color: #3aafa9;
+}
+
+.container{
+    /* display: flex;
+    flex-direction: column; */
+    /* position: absolute; */
+    width: 300px;
+    height: 400px;
+    background-color: black;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 10px ;
+    padding-bottom: 10px;
+   
+}
+
+
+
+.container .imges{
+    object-fit: cover;
+    
+    width: 100%;
+    
+}
+#title{
+    background-color: transparent;
+    color: aliceblue;
+    font-weight: bolder;
+    margin: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
