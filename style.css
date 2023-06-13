@@ -11,8 +11,8 @@
     background-color: black;
     align-items: center;
     /* justify-content: center; */
-    margin-top: 10px ;
-    padding-bottom: 10px;
+    margin: 1rem 1rem ;
+   
    
 }
 
@@ -20,7 +20,7 @@
 
 .container .imges{
     object-fit: cover;
-    
+    max-height:400px;
     width: 100%;
     
 }
